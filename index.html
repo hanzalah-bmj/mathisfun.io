@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            border: 2px solid lightblue;
+            background-color: lightblue;
+            /* height: 500px; */
+            max-width: 700px;
+            border-radius: 25px;
+            margin: auto;
+            margin-top: 50px;
+        }
+
+        .box {
+            text-align: right;
+            border: 1px solid #aaa;
+            vertical-align: top;
+            width: 190px;
+            height: 40px;
+            font-size: 18px;
+            font-weight: normal;
+            color: #333;
+            padding: 4px 10px 10px 0px;
+            margin: 5px;
+            text-shadow: 1px 1px 0px #fff;
+            cursor: pointer;
+            border-radius: 4px;
+            box-shadow: 2px 2px 2px #ccf;
+            background: linear-gradient(to bottom, #feffff 0%, #d6dbff 100%);
+            position: relative;
+            display: inline-block;
+        }
+
+        .box:hover {
+            background: linear-gradient( rgb(219, 145, 7), rgba(255, 166, 0, 0.329));
+        }
+
+        .icon {
+            position: absolute;
+            left: 0;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+
+
+        }
+
+        li {
+            margin: 25px;
+           
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+
+        @media screen and (max-width: 600px){
+            .container {
+                background-color: white;
+                border: 0px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <ul>
+              <li class="box"><a href="">Index</a></li>
+                <li class="box"><img class="icon" src="/icon-data.gif" alt=""><a href="">Data</a></li>
+                <li class="box"><img src="/icon-geometry.gif" alt="" class="icon"><a href="">Geometry</a></li>
+               <li class="box"><img src="/icon-numbers.gif" alt="" class="icon"><a href="">Numbers</a></li>
+                <li class="box"><img src="/icon-puzzles.gif" alt="" class="icon"><a href="">Puzzles</a></li>
+               <li class="box"><img src="/icon-money.gif" alt="" class="icon"><a href="">Money</a></li>
+                <li class="box"><img src="/icon-algebra.gif" alt="" class="icon"><a href="">Algebra</a></li>
+                <li class="box"><img src="/icon-calculus.gif" alt="" class="icon"><a href="">Calculas</a></li>
+                <li class="box"><img src="/icon-physics.gif" alt="" class="icon"><a href="">Physics</a></li>
+                <li class="box"><img src="/icon-games.gif" alt="" class="icon"><a href="">Games</a></li>
+                <li class="box"><img src="/icon-dictionary.gif" alt="" class="icon"><a href="">Dictionary</a></li>
+                <li class="box"><img src="/icon-worksheet.gif" alt="" class="icon"><a href=""></a>Worksheets</li>
+                <li class="box"><img src="/icon-measure.gif" alt="" class="icon"><a href=""></a>Measurement</li>
+                <li class="box"><img src="/icon-activity.gif" alt="" class="icon"><a href=""></a>Activities</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
